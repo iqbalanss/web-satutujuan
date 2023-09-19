@@ -1,0 +1,149 @@
+:root {
+    --darkgreen: #006041;
+    --softgreen: #97A259;
+    --greenpastel: #D7E8D2;
+    --bluesoft: #F9FBFC;
+    --blue: #3A38FF;
+    --white: #ffff;
+    --fwbold: 700;
+    --fwextrabold: 800;
+    --fwsemibold: 600;
+    --fwmedium: 500;
+    --fwregular: 300;
+}
+
+body {
+    font-family: 'Futura PT', sans-serif;                                         
+    background: var(--white);
+}
+
+.img-fluid {
+    border-radius: 60px;
+}
+
+.navbar-brand {
+    font-weight: var(--fwbold);
+    color: var(--darkgreen);
+    font-size: 28px;
+}
+
+.logo-navbar {
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    padding: 10px 30px 10px 30px;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: var(--fwmedium);
+    color: var(--darkgreen);
+    font-size: 20px;
+}
+.navbar-nav .nav-item a {
+    color: var(--navy);
+    transition: all 0.3s ease;
+}
+
+
+.navbar-nav .nav-item a:hover {
+    color: var(--darkgreen);
+    transition: all 0.3s linear;
+    font-weight: var(--fwsemibold);
+}
+
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.header {
+
+    padding: 50px;
+}
+
+.unity {
+    padding: 50px;
+}
+
+.big-header2 {
+    font-weight: var(--fwbold);
+    color: var(--darkgreen);
+    font-size: 20px;
+}
+
+.big-header {
+    font-weight: var(--fwbold);
+    color: var(--darkgreen);
+    font-size: 50px;
+}
+
+.small-header {
+    font-weight: var(--fwbold);
+    color: var(--darkgreen);
+    font-size: 40px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    float: left;
+}
+
+.milestone {
+    background: var(--greenpastel);
+}
+
+.copymilestone {
+    font-weight: var(--fwsemibold);
+    font-size: 30px;
+    color: var(--darkgreen);
+}
+
+.copymilestone2 {
+    font-weight: var(--fwmedium);
+    font-size: 30px;
+    color: var(--darkgreen);
+    text-align: justify;
+}
+
+.primary-copy {
+    font-weight: var(--fwregular);
+    line-height: 28px;
+    color: var(--darkgreen);
+    font-size: 35px;
+    margin: 0;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.copywriting {
+    padding: 12px 40px 12px 40px;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 150px;
+}
+
